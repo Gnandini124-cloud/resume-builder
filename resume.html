@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <nav>
+        <a href="#">Cover Letter</a>
+        <a href="Interview.html">Interview</a>
+        <a href="#">Templete Selection</a>
+       <a href="#">Customization options</a>
+       <a href="#">Registration</a>
+    </nav>
+
+    <div class="heading"> <h1>Start building Your Professional Resume With Us</h1></div>
+      
+   <div class="body">
+    <div class="side">
+        <form action="/submit" method="POST">
+            <div class="wrapper">
+                <input type="text" class="name" placeholder="Firstname">
+                <input type="text" class="name" placeholder="Secondname">
+            </div>
+            <div class="box-container">
+                <p><i class="fa fa-briefcase" aria-hidden="true"></i><input type="text" class="name" placeholder="Senior Web-Developer"></p>
+                <p> <i class="fa fa-map-marker" aria-hidden="true"></i><div class="loc">
+                    <label for="select-location">Location</label>
+                    <select name="location" class="name" id="select-location">
+                    <option>Bangalore</option>
+                    <option>Mumbai</option>
+                    <option>Hyderabad</option>
+                    <option>Chennai</option>
+                    <option>Noida</option>
+                </select> </div> </p>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i><input type="email" class="name" placeholder="example@gmail.com"></p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i><input type="text" class="name" placeholder="1234567890"></p>
+            </div>
+            <div class="box-container">
+                
+                <div class="s-1">
+                    <label for="select-skill"><h3>Skill</h3></label>
+                    <select name="Skill"  class="name" id="select-skill">
+                        <option>HTML5</option>
+                        <option>CSS3</option>
+                        <option>Javascript</option>
+                        <option>MS-Excel</option>
+                        <option>MS-Word</option>
+                        <option>Full-Stack</option>
+                        <option>MS-Powerpoint</option>
+                        <option>Pen-testing</option>
+                        <option>Human Resource Management(HRM)</option>
+
+                    </select>
+            </div>
+            </div>
+            <div class="box-container">
+               
+                <div class="s-1">
+                    <label for="Selet-Language"> <h3>Language</h3></label>
+                        <select name="Language" class="name" id="Selet-Language">
+                            <option>English</option>
+                            <option>Chinese</option>
+                            <option>French</option>
+                            <option>Gujarati</option>
+                            <option>Hindi</option>
+                            <option>Japanese</option>
+                            <option>Korean</option>
+                            <option>Malayalam</option>
+                            <option>Mandarin</option>
+                            <option>Russian</option>
+                            <option>Tamil</option>
+                            <option>Telugu</option>
+                            <option>Tulu</option>
+                            <option>Turkish</option>
+                            <option>Ukrainian</option>
+
+                        </select>
+                  
+                    
+                </div>
+            </div>
+            <div class="photo">
+                <label for="image">Your Image</label>
+                <input id="image" type="file" class="form-control image" accept="image/*" onchange=" "/>
+            </div>
+        </form>
+    </div>
+            
+            <div class="flex">
+                <div class="box">
+                    <label for="obj"><h3>Objective</h3></label>
+                    <textarea id="obj"></textarea>
+                   </div>
+                <div class="box">
+                    <label for="edu"><h3>Education</h3></label>
+                      <textarea id="edu"  placeholder="write your education qualification diploma,Undergraduation,Post-graduation...."></textarea>
+                    </div>
+                     <div class="box">
+                      <label for="exp"><h3>Experience</h3></label>
+                      <textarea id="exp"   placeholder="Mention the Roles that you previously worked,the duration of the roles and the projects that have you done..."></textarea>
+                     </div>
+                     
+            </div>
+            
+        </div>
+        <div class="submit"><button class="butsub" type="submit">Submit</button></div>
+        
+</body>
+</html>

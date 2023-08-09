@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.btn{
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+.start{
+    background-color: rgb(60, 125, 127);
+    color: white;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 35px;
+    border: 2px solid black;
+}
+.start:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+   justify-content: right;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    padding-right: 40px;
+
+}
+nav a.active, a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 3s;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    margin: 80px 30px;
+}
+  
+.box-container{
+    flex-direction: row;
+    margin: 20px;
+}
+form{
+    
+    width: 450px;
+    height: 700px;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+.name{
+    margin: 5px;
+    padding: 12px;
+    text-align: center;
+}
+
+.wrapper{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+textarea{
+    height: 200px;
+    width: 100%;
+   -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;  
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+    padding: 50px;
+}
+.div1{
+    padding: 18px;
+    height: 200px;
+    width: 300px;
+   
+}
+.header-section{
+    height: 60px;
+    width: 100%;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+.button{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+button{
+    background-color: rgb(190, 38, 88);
+    color: white;
+    border: none;
+    border-radius: 2px solid rgb(223, 212, 216);
+    padding: 15px 20px;
+   
+}
+button:hover{
+    background-color: rgb(218, 112, 147);
+    
+}
